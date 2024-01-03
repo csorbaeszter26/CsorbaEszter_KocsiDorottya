@@ -1,9 +1,29 @@
+
+/* eszti */
 * {
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
 
 }
+<<<<<<< HEAD
+=======
+
+
+body {
+    background-size: cover;
+}
+
+header{
+    background-image: url("CsendesLetteremVintageBarBudapest.jpg");
+    height: 40vh;
+    background-size: cover;
+    margin: auto;
+    
+}
+
+/* eszti */
+>>>>>>> 9ae5ec3984bbb513c37ac669068845200e228d74
 
 body {
     width: 90%;
