@@ -6,21 +6,18 @@
     box-sizing: border-box;
 
 }
-ezt latod esztiiii?
 
-IGEEEN és te ezt?
 
 body {
-    width: 90%;
-    max-width: 900px;
-    margin: auto;
-    background-color: burlywood;
     background-size: cover;
 }
 
 header{
     background-image: url("CsendesLetteremVintageBarBudapest.jpg");
-
+    height: 40vh;
+    background-size: cover;
+    margin: auto;
+    
 }
 
 /* eszti */
