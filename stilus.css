@@ -17,8 +17,8 @@ header{
     background-image: url("CsendesLetteremVintageBarCafé3.jpg");
     height: 50vh;
     background-size: cover;
-    margin: auto;
     margin: 0px;
+    padding: 0%;
 }
 
 .cimKezdolap{
@@ -26,10 +26,31 @@ header{
     color: #DAA520;
     text-shadow: 2px 2px #FFF8DC;
     background-color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 3px;
+    font-size: 150%;
+    margin: 0px;
 }
 
+.cimKezdolap h1 {
+    padding-left: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+/*
+.kezdolapCimKep{
+    float: right;
+    width: 23%;
+    margin-right: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-size: cover;
+}
+
+.torlesKezdolap{
+    clear: both;
+}
+*/
 /*menü: */
 nav ul{
     list-style-type: none;
@@ -61,7 +82,7 @@ nav ul a{
 /*grid-areak: */
 main {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 2fr;
     grid-template-areas: 
         "h h h"
         "n n n"
@@ -89,29 +110,179 @@ aside {
     grid-area: j;
 }
 
-/*article: */
+/* article: */
 .figyelem{
     text-align: justify;
     text-align: center;
-    background-color: #A52A2A;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: #de4035;
+    padding: 10px;
     border-radius: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-bottom: 20px;
     
 }
 
-aside {
-    background-color: white;
-    padding: 5px;
+article{
+    background-color: black;
+    
+    border-left: 2px solid black;
+    background-size: cover;
 }
 
+.articleDivje{
+    background-color: #FFE4C4;
+    padding: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.bemutatkozas {
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.bemutatkozasfelsorolas{
+    padding-top: 20px;
+    list-style-type: circle;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    
+}
+
+.spanBemutFels{
+    font-weight: 800;
+    
+}
+
+.spanFigyelNe{
+    text-decoration: underline;   
+}
+
+.bemutatkozasfelsorolas li {
+    padding: 4px;
+}
+
+/* aside: */
+aside {
+    background-color: black;
+    border-right: 2px solid black;
+    padding: 5px;
+    max-width: 330px; 
+    margin: 0 auto;
+}
+
+.asideDivje{
+    background-color: #e8ac56;
+    padding-top: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 3px;
+    
+    
+}
+
+.kezdolapKocsmaKep{
+    width: 100%;
+    
+}
+
+.torlesKezdolap{
+    clear: both;
+}
+
+.asideDivje ul{
+    list-style-type: circle;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.asideDivje li{
+    padding: 4px;
+}
+
+.tablazatosertekeles{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/*.kezdolapkocsmak {
+    
+
+
+}
+
+.kezdolapkocsmak ul{
+    list-style-type: circle;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.kezdolapkocsmak li{
+    padding: 4px;
+}
+
+.kezdolapKocsmakKep{
+    float: up;
+    width: 20%;
+    margin-right: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-size: cover;
+    padding-left: 0px;
+}
+
+.torlesKezdolap{
+    clear: both;
+}
+
+.kezdolapkocsmakfelsorolas1 {
+    padding-left: 200px;
+}
+*/
+
+/* TÁBLÁZAT: */
 table {
     font-size: 80%;
     padding-top: 30px;
+}
+
+/*footer: */
+
+footer{
+    background-color: black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.footerDivje {
+    background-color: #e8ac56;
+    margin: 13px;
+    color: black;
+
+}
+
+.footerBD{
+    
+    float: left;
+    
+    margin-left: 10px;
+    margin-right: 30px;
+    
+    padding: 10px;
+}
+
+.footerJD{
+    
+    float: rigth;
+    
+    margin-left: 30px;
+    margin-right: 10px;
+    
+    padding: 10px;
 }
 
 /* eszti */
