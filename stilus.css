@@ -6,24 +6,115 @@
     box-sizing: border-box;
 
 }
-<<<<<<< HEAD
-=======
 
 
 body {
     background-size: cover;
 }
 
+/*headerhez tartozó: */
 header{
-    background-image: url("CsendesLetteremVintageBarBudapest.jpg");
-    height: 40vh;
+    background-image: url("CsendesLetteremVintageBarCafé3.jpg");
+    height: 50vh;
     background-size: cover;
     margin: auto;
+    margin: 0px;
+}
+
+.cimKezdolap{
+    text-align: justify;
+    color: #DAA520;
+    text-shadow: 2px 2px #FFF8DC;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*menü: */
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
     
 }
 
+nav ul li{
+    padding: 10px;
+    background-color: #DAA520;
+    text-align: center;
+    border-right: 2px solid black;
+    
+}
+
+nav ul a{
+    text-decoration: none;
+    
+}
+
+
+
+/*grid-areak: */
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 
+        "h h h"
+        "n n n"
+        "a a j"
+        "f f f"; 
+}
+
+header{
+    grid-area: h;
+}
+
+article {
+    grid-area: a;
+}
+
+nav {
+    grid-area: n;
+}
+
+footer {
+    grid-area: f;
+}
+
+aside {
+    grid-area: j;
+}
+
+/*article: */
+.figyelem{
+    text-align: justify;
+    text-align: center;
+    background-color: #A52A2A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+aside {
+    background-color: white;
+    padding: 5px;
+}
+
+table {
+    font-size: 80%;
+    padding-top: 30px;
+}
+
 /* eszti */
->>>>>>> 9ae5ec3984bbb513c37ac669068845200e228d74
 
 body {
     width: 90%;
