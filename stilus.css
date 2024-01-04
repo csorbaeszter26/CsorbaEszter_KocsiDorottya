@@ -69,14 +69,32 @@ nav ul li{
     background-color: #DAA520;
     text-align: center;
     border-right: 2px solid black;
-    
+    transition: background-color 0.3s;
 }
 
 nav ul a{
     text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+nav li:hover{
+    background-color: #8B4513;
     
 }
 
+nav li:hover a{
+    color: white;
+}
+
+nav li.szines{
+    background-color: #8B4513;
+    
+}
+
+nav a.szines{
+    color: white;
+}
 
 
 /*grid-areak: */
@@ -148,7 +166,7 @@ article{
     padding-top: 20px;
     list-style-type: circle;
     padding-left: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     
 }
 
@@ -247,7 +265,50 @@ aside {
 table {
     font-size: 80%;
     padding-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    margin-top: 25px;
 }
+
+  
+td, th {
+    border-right:1px solid white;
+    padding: 6px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+th:first-child, td:first-child, tr:first-child th, tr:first-child td  {
+    background-color: black;
+}
+
+th:last-child, td:last-child {
+    border-right: none;
+}
+
+tr:last-child td{
+    border: 2px solid white;
+}
+
+tr:first-child{
+    border-bottom: 1px solid white;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: rgb(40, 37, 37);
+    border-top:1px solid rgb(40, 37, 37);
+    border-bottom:1px solid rgb(40, 37, 37);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(72, 68, 68);
+}
+
+
 
 /*footer: */
 
@@ -260,7 +321,7 @@ footer{
 
 .footerDivje {
     background-color: #e8ac56;
-    margin: 13px;
+    margin: 10px;
     color: black;
 
 }
