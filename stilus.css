@@ -359,8 +359,108 @@ footer{
 
 /* HÍREK */
 
+.articlee{
+    background-color: black;
+    text-align: justify;
+    border-left: 2px solid black;
+    background-size: cover;
 
+    margin: 0 auto;
+    
+}
 
+.hirekArticleDivje{
+    margin: 10px;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 25px;;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.hirekCim{
+    margin:10px;
+    background-color:  #FFE4C4;
+    padding: 20px;
+
+}
+
+.hirekGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hir1{
+    border-radius: 20px;
+    margin: 30px;
+    background-color:  #FFE4C4;
+    padding: 20px;
+    float: left;
+    width: 80%;
+    
+}
+
+.hir2{
+    border-radius: 20px;
+    margin:30px;
+    background-color:  #FFE4C4;
+    padding: 20px;
+    float: right;
+    width: 80%;
+    
+}
+
+.hir3{
+    border-radius: 20px;
+    margin:30px;
+    background-color:  #FFE4C4;
+    padding: 20px;
+    float: left;
+    width: 80%;
+    
+}
+
+.hir4{
+    border-radius: 20px;
+    margin:30px;
+    background-color:  #FFE4C4;
+    padding: 20px;
+    float: right;
+    width: 80%;
+    
+}
+
+.hir5{
+    border-radius: 20px;
+    margin:30px;
+    background-color:  #FFE4C4;
+    padding: 20px;
+    float: left;
+    width: 80%;
+    
+}
+
+.hir6{
+    border-radius: 20px;
+    margin:30px;
+    background-color:  #FFE4C4;
+    padding: 20px;
+    float: rigth;
+    width: 80%;
+    
+}
+
+.hir1 h4{
+    text-align: center;
+    padding: 5px;
+    border: 1px groove black;
+    border-radius: 5px;
+    border
+}
+.hir1 p{
+    padding-top: 15px;;
+}
 
 /* eszti */
 
