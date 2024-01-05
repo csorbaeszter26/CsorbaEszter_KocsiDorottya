@@ -147,8 +147,7 @@ article{
     text-align: justify;
     border-left: 2px solid black;
     background-size: cover;
-    max-width: 800px; 
-    margin: 0 auto;
+    
 }
 
 .articleDivje{
@@ -158,6 +157,8 @@ article{
     padding-right: 25px;;
     margin-left: 10px;
     margin-top: 10px;
+    max-width: 800px; 
+    
 }
 
 .bemutatkozas {
@@ -370,17 +371,13 @@ footer{
 }
 
 .hirekArticleDivje{
-    margin: 10px;
-    padding: 20px;
-    padding-left: 20px;
-    padding-right: 25px;;
-    margin-left: 10px;
-    margin-top: 10px;
-
+    margin: 5px;
+    padding: 10px;
+    
 }
 
 .hirekCim{
-    margin:10px;
+    margin:5px;
     background-color:  #FFE4C4;
     padding: 20px;
 
@@ -456,10 +453,12 @@ footer{
     padding: 5px;
     border: 1px groove black;
     border-radius: 5px;
-    border
+    background-color: #8B4513;
+    color: white;
 }
 .hir1 p{
-    padding-top: 15px;;
+    padding-top: 15px;
+    text-align: justify;
 }
 
 /* eszti */
