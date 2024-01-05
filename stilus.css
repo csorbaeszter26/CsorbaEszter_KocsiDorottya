@@ -1,5 +1,8 @@
-
 /* eszti */
+/* KEZDŐLAP*/
+
+/* dorka */
+/* kocsma oldal */
 * {
     margin: 0;
     padding: 0px;
@@ -12,32 +15,73 @@ body {
     max-width: 900px;
     margin: auto;
     padding: 5px;
-    background-color: white;
+    background-color: rgb(162, 157, 157);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .kocsma {
-    border: 1px solid black;
+    border: 5px solid black;
     margin-top: 15px;
     margin-bottom: 15px;
-    padding: 10px;
-    display: flex;
-    flex-wrap: nowrap; 
+    padding: 5px;
     overflow-x: auto;
-    flex-direction: row;  
-    align-items: center;
 }
-.kocsma img {
-    width: 25%;
-    height: auto;
-    margin-right: 10px;
-    margin-bottom: 10px;
 
+.kocsma .kepek {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 5px;
+    background-color: rgb(162, 157, 157);;
+}
+
+.kocsma .kepek img {
+    flex-shrink: 0;
+    width: 19.5%;
+    height: auto;
 }
 
 .kocsma p {
+    text-align: left;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    line-height: 1.5;
+    white-space: pre-line;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.kocsma h2 {
+    color: rgb(0, 0, 0);
   
-    width:100%;
-    padding-top: -10px;
-    padding-bottom: 10px;
+}
+footer{
+    font-weight: bold;
+    font-style: italic;
+}
+nav ul{
+    color:rgba(91, 91, 205,);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px;
+    list-style-type: none;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+}
+nav li{
+    border: 2px solid black;
+    padding: 5px;
+}
+nav a:hover{
+    background-color: rgba(85, 73, 223,);
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(88, 88, 208,);
+    padding: 5px;
 }
