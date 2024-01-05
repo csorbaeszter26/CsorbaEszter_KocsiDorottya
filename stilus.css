@@ -475,6 +475,7 @@ body {
     padding: 5px;
     background-color: rgb(162, 157, 157);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
 }
 
 .kocsma {
@@ -490,7 +491,7 @@ body {
     flex-wrap: nowrap;
     justify-content: flex-start;
     gap: 5px;
-    background-color: rgb(162, 157, 157);;
+   
 }
 
 .kocsma .kepek img {
@@ -510,16 +511,53 @@ body {
     padding: 10px;
     font-weight: bold;
     font-style: italic;
+    color:white;
 }
-
+.cim{
+    text-align: justify;
+    color: #DAA520;
+    text-shadow: 2px 2px #FFF8DC;
+    background-color: black;
+    padding: 3px;
+    font-size: 300%;
+    margin: 0px;
+}
 .kocsma h2 {
-    color: rgb(0, 0, 0);
+    color: white;
   
 }
 footer{
-    font-weight: bold;
-    font-style: italic;
+    background-color: black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
+
+.footerDivje {
+    background-color: #e8ac56;
+    margin: 10px;
+    color: black;
+    overflow: hidden;
+}
+
+.footerBD{
+    text-align: left;
+    padding: 30px 20px 20px 40px;
+    float: left;
+}
+
+.footerJD{
+    padding: 10px;
+    text-align: right;
+    margin: 5px;
+    width: 96%;
+}
+
+.footerB{
+    font-weight: 800;
+    text-decoration: 2px dashed black;
+}
+
 nav ul{
     color:rgba(91, 91, 205,);
     display: grid;
