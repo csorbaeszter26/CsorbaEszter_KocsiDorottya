@@ -574,3 +574,13 @@ nav a{
 }
 /* terkep */
 
+.terkeparticlediv{
+    margin: 5px;
+    padding: 10px;
+}
+.terkepcim{
+    margin:5px;
+    background-color:  #FFE4C4;
+    padding: 20px;
+
+}
