@@ -236,43 +236,10 @@ aside {
 
 .tablazatosertekeles{
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 36px;
 }
 
-/*.kezdolapkocsmak {
-    
 
-
-}
-
-.kezdolapkocsmak ul{
-    list-style-type: circle;
-    padding-left: 40px;
-    padding-bottom: 20px;
-}
-
-.kezdolapkocsmak li{
-    padding: 4px;
-}
-
-.kezdolapKocsmakKep{
-    float: up;
-    width: 20%;
-    margin-right: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    background-size: cover;
-    padding-left: 0px;
-}
-
-.torlesKezdolap{
-    clear: both;
-}
-
-.kezdolapkocsmakfelsorolas1 {
-    padding-left: 200px;
-}
-*/
 
 /* TÁBLÁZAT: */
 table {
@@ -736,3 +703,52 @@ a:hover{
     display: block;
     margin: 0 auto;
 }
+
+
+
+
+
+
+/* MOBIL NÉZET */
+
+
+@media only screen and (max-width: 450px) {
+    body, main {
+        font-size:12px;
+        
+        background-size: cover;
+        width:100%;
+    }
+    main {  
+        grid-template-columns:1fr; 
+        grid-template-areas: 
+            "h"
+            "n"
+            "a"
+            "j"
+            "f"; 
+    }
+    nav ul {
+    
+        grid-template-columns: 1fr; 
+        gap: 5px; 
+        list-style-type: none;
+        text-align: center;
+    }
+    .hirekGrid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    aside{
+        max-width: 380px;
+    }
+    header{
+        height: 30vh;
+    }
+
+  }
+
+}
+
+
