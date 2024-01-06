@@ -372,16 +372,20 @@ footer{
 }
 
 .hirekArticleDivje{
-    margin: 5px;
-    padding: 10px;
-    
+    margin: 10px;
+    padding: 5px;
+    background-image: url("hatterF2.jpg");
 }
 
 .hirekCim{
-    margin:5px;
+    margin:0px;
     background-color:  #FFE4C4;
     padding: 20px;
 
+}
+
+.hirekCim p{
+    text-indent: 50px;
 }
 
 .hirekGrid{
@@ -390,62 +394,62 @@ footer{
 }
 
 .hir1{
-    border-radius: 20px;
-    margin: 30px;
+    border-radius: 2px;
+    margin: 30px 20px 30px 20px;
     background-color:  #FFE4C4;
     padding: 20px;
     float: left;
-    width: 80%;
+    width: 90%;
     
 }
 
 .hir2{
-    border-radius: 20px;
-    margin:30px;
+    border-radius: 2px;
+    margin:20px;
     background-color:  #FFE4C4;
     padding: 20px;
     float: right;
-    width: 80%;
+    width: 90%;
     
 }
 
 .hir3{
-    border-radius: 20px;
-    margin:30px;
+    border-radius: 2px;
+    margin:20px;
     background-color:  #FFE4C4;
     padding: 20px;
     float: left;
-    width: 80%;
+    width: 90%;
     
 }
 
 .hir4{
-    border-radius: 20px;
-    margin:30px;
+    border-radius: 2px;
+    margin:20px;
     background-color:  #FFE4C4;
     padding: 20px;
     float: right;
-    width: 80%;
+    width: 90%;
     
 }
 
 .hir5{
-    border-radius: 20px;
-    margin:30px;
+    border-radius: 2px;
+    margin:20px;
     background-color:  #FFE4C4;
     padding: 20px;
     float: left;
-    width: 80%;
+    width: 90%;
     
 }
 
 .hir6{
-    border-radius: 20px;
-    margin:30px;
+    border-radius: 2px;
+    margin:20px;
     background-color:  #FFE4C4;
     padding: 20px;
     float: rigth;
-    width: 80%;
+    width: 90%;
     
 }
 
@@ -457,11 +461,78 @@ footer{
     background-color: #8B4513;
     color: white;
 }
+
 .hir1 p{
-    padding-top: 15px;
     text-align: justify;
-    
 }
+
+.hirekDatum {
+    padding-top: 15px;
+}
+
+.hir2 h4{
+    text-align: center;
+    padding: 5px;
+    border: 1px groove black;
+    border-radius: 5px;
+    background-color: #8B4513;
+    color: white;
+}
+
+.hir2 p{
+    text-align: justify;   
+}
+
+.hir3 h4{
+    text-align: center;
+    padding: 5px;
+    border: 1px groove black;
+    border-radius: 5px;
+    background-color: #8B4513;
+    color: white;
+}
+.hir3 p{
+    text-align: justify;   
+}
+
+.hir4 h4{
+    text-align: center;
+    padding: 5px;
+    border: 1px groove black;
+    border-radius: 5px;
+    background-color: #8B4513;
+    color: white;
+}
+.hir4 p{
+    text-align: justify;   
+}
+
+.hir5 h4{
+    text-align: center;
+    padding: 5px;
+    border: 1px groove black;
+    border-radius: 5px;
+    background-color: #8B4513;
+    color: white;
+}
+.hir5 p{
+    text-align: justify;   
+}
+
+.hir6 h4{
+    text-align: center;
+    padding: 5px;
+    border: 1px groove black;
+    border-radius: 5px;
+    background-color: #8B4513;
+    color: white;
+}
+.hir6 p{
+    text-align: justify;   
+}
+
+
+
 /* /eszti */
 
 
