@@ -584,15 +584,6 @@ body {
     font-style: italic;
     color:white;
 }
-.cim{
-    text-align: justify;
-    color: #DAA520;
-    text-shadow: 2px 2px #FFF8DC;
-    background-color: black;
-    padding: 3px;
-    font-size: 300%;
-    margin: 0px;
-}
 .kocsma h2 {
     color: white;
   
@@ -652,3 +643,5 @@ nav a{
     color: rgba(88, 88, 208,);
     padding: 5px;
 }
+/* terkep */
+
