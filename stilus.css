@@ -372,20 +372,15 @@ footer{
 }
 
 .hirekArticleDivje{
-    margin: 10px;
-    padding: 5px;
-    background-image: url("hatterF2.jpg");
+    margin: 5px;
+    padding: 10px;
 }
 
 .hirekCim{
-    margin:0px;
+    margin:5px;
     background-color:  #FFE4C4;
     padding: 20px;
 
-}
-
-.hirekCim p{
-    text-indent: 50px;
 }
 
 .hirekGrid{
@@ -394,62 +389,62 @@ footer{
 }
 
 .hir1{
-    border-radius: 2px;
-    margin: 30px 20px 30px 20px;
+    border-radius: 20px;
+    margin: 30px;
     background-color:  #FFE4C4;
     padding: 20px;
     float: left;
-    width: 90%;
+    width: 80%;
     
 }
 
 .hir2{
-    border-radius: 2px;
-    margin:20px;
+    border-radius: 20px;
+    margin:30px;
     background-color:  #FFE4C4;
     padding: 20px;
     float: right;
-    width: 90%;
+    width: 80%;
     
 }
 
 .hir3{
-    border-radius: 2px;
-    margin:20px;
+    border-radius: 20px;
+    margin:30px;
     background-color:  #FFE4C4;
     padding: 20px;
     float: left;
-    width: 90%;
+    width: 80%;
     
 }
 
 .hir4{
-    border-radius: 2px;
-    margin:20px;
+    border-radius: 20px;
+    margin:30px;
     background-color:  #FFE4C4;
     padding: 20px;
     float: right;
-    width: 90%;
+    width: 80%;
     
 }
 
 .hir5{
-    border-radius: 2px;
-    margin:20px;
+    border-radius: 20px;
+    margin:30px;
     background-color:  #FFE4C4;
     padding: 20px;
     float: left;
-    width: 90%;
+    width: 80%;
     
 }
 
 .hir6{
-    border-radius: 2px;
-    margin:20px;
+    border-radius: 20px;
+    margin:30px;
     background-color:  #FFE4C4;
     padding: 20px;
     float: rigth;
-    width: 90%;
+    width: 80%;
     
 }
 
@@ -461,78 +456,11 @@ footer{
     background-color: #8B4513;
     color: white;
 }
-
 .hir1 p{
-    text-align: justify;
-}
-
-.hirekDatum {
     padding-top: 15px;
+    text-align: justify;
+    
 }
-
-.hir2 h4{
-    text-align: center;
-    padding: 5px;
-    border: 1px groove black;
-    border-radius: 5px;
-    background-color: #8B4513;
-    color: white;
-}
-
-.hir2 p{
-    text-align: justify;   
-}
-
-.hir3 h4{
-    text-align: center;
-    padding: 5px;
-    border: 1px groove black;
-    border-radius: 5px;
-    background-color: #8B4513;
-    color: white;
-}
-.hir3 p{
-    text-align: justify;   
-}
-
-.hir4 h4{
-    text-align: center;
-    padding: 5px;
-    border: 1px groove black;
-    border-radius: 5px;
-    background-color: #8B4513;
-    color: white;
-}
-.hir4 p{
-    text-align: justify;   
-}
-
-.hir5 h4{
-    text-align: center;
-    padding: 5px;
-    border: 1px groove black;
-    border-radius: 5px;
-    background-color: #8B4513;
-    color: white;
-}
-.hir5 p{
-    text-align: justify;   
-}
-
-.hir6 h4{
-    text-align: center;
-    padding: 5px;
-    border: 1px groove black;
-    border-radius: 5px;
-    background-color: #8B4513;
-    color: white;
-}
-.hir6 p{
-    text-align: justify;   
-}
-
-
-
 /* /eszti */
 
 
@@ -644,14 +572,90 @@ nav a{
     padding: 5px;
 }
 /* terkep */
-
-.terkeparticlediv{
+.terkepArticleDiv{
     margin: 5px;
     padding: 10px;
+    
 }
-.terkepcim{
+
+.terkepCim{
     margin:5px;
     background-color:  #FFE4C4;
     padding: 20px;
+}
+h2{
+    margin-bottom: 5px;
+}
+p{
+    font-style: italic;
+}
+.terkepHelyek a {
+    color: black; 
+    text-decoration: none;
+    font-weight: bold;
 
+}
+.magterkep{
+    margin:5px;
+    background-color:  #FFE4C4;
+    padding: 20px;
+    
+}
+.wwclubterkep{
+    margin:5px;
+    background-color:  #FFE4C4;
+    padding: 20px;
+}
+.fahazterkep{
+    margin:5px;
+    background-color:  #FFE4C4;
+    padding: 20px;
+}
+.grundterkep{
+    margin:5px;
+    background-color:  #FFE4C4;
+    padding: 20px;
+}
+a:hover{
+    background-color: #8B4513;
+    
+}
+
+a:hover{
+    color: white;
+}
+.terkepHelyek img {
+    width: 19.5%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px; 
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 10px; 
+}
+.terkepHelyek {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.terkepHelyek div {
+    text-align: center;
+}
+
+.terkepHelyek img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.terkepHelyek a {
+    margin-top: 10px; 
+}
+
+.terkepHelyek a img {
+    display: block;
+    margin: 0 auto;
 }
