@@ -833,18 +833,19 @@ a:hover {
     height: 100px;
     margin-left: auto;
     margin-top: 10px;
+    font-size: 12px;
 }
 
 .Esztifejdiv {
     margin: 5px;
-    background-color: pink;
+    background-image:url(eszti_feje.JPG);
     padding: 20px;
     border: 2px solid black;
     width: 80px;
     height: 60px;
     box-sizing: border-box;
-
 }
+
 .WWdiv {
     margin: 5px;
     background-color: #FFE4C4;
