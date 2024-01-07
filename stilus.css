@@ -852,39 +852,16 @@ a:hover {
     padding: 20px;
     text-align: center;
 }
-.Dorkadivje {
-    margin: 5px;
-    background-color: white;
-    padding: 20px;
-    border: 2px solid black;
-    width: 800px;
-    height: 100px;
-    margin-bottom: 10px;
-    margin-top: 5px;
-    font-size: 12px;
-    display: flex;
-    flex-direction: row-reverse; 
-    align-items: center;
 
-}
-
-
-
-
-
-
-.Dorkafejdiv {
-    margin: 5px;
-    background-image:url(dorka_feje.jpg);
-    padding: 20px;
-    border: 2px solid black;
-    width: 80px;
-    height: 60px;
-    box-sizing: border-box;
-}
 .Fahazdiv{
     margin: 5px;
     background-color: #FFE4C4;
     padding: 20px;
     text-align: center;
+}
+.Grunddiv{
+    margin: 5px;
+    background-color: #FFE4C4;
+    padding: 20px;
+    text-align: center; 
 }
