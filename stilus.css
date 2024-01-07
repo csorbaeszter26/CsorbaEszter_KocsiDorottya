@@ -15,7 +15,7 @@ body {
 }
 
 /*headerhez tartozó: */
-header{
+header {
     background-image: url("CsendesLetteremVintageBarCafé3.jpg");
     height: 50vh;
     background-size: cover;
@@ -23,7 +23,7 @@ header{
     padding: 0%;
 }
 
-.cimKezdolap{
+.cimKezdolap {
     text-align: justify;
     color: #DAA520;
     text-shadow: 2px 2px #FFF8DC;
@@ -39,6 +39,7 @@ header{
     margin-bottom: 0px;
     padding-top: 10px;
 }
+
 /*
 .kezdolapCimKep{
     float: right;
@@ -54,7 +55,7 @@ header{
 }
 */
 /*menü: */
-nav ul{
+nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -63,10 +64,10 @@ nav ul{
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
-    
+
 }
 
-nav ul li{
+nav ul li {
     padding: 10px;
     background-color: #DAA520;
     text-align: center;
@@ -74,27 +75,27 @@ nav ul li{
     transition: background-color 0.3s;
 }
 
-nav ul a{
+nav ul a {
     text-decoration: none;
     color: black;
     transition: color 0.3s;
 }
 
-nav li:hover{
+nav li:hover {
     background-color: #8B4513;
-    
+
 }
 
-nav li:hover a{
+nav li:hover a {
     color: white;
 }
 
-nav li.szines{
+nav li.szines {
     background-color: #8B4513;
-    
+
 }
 
-nav a.szines{
+nav a.szines {
     color: white;
 }
 
@@ -103,14 +104,14 @@ nav a.szines{
 main {
     display: grid;
     grid-template-columns: 4fr 2fr;
-    grid-template-areas: 
+    grid-template-areas:
         "h h h"
         "n n n"
         "a a j"
-        "f f f"; 
+        "f f f";
 }
 
-header{
+header {
     grid-area: h;
 }
 
@@ -131,7 +132,7 @@ aside {
 }
 
 /* article: */
-.figyelem{
+.figyelem {
     text-align: justify;
     text-align: center;
     background-color: #de4035;
@@ -140,26 +141,27 @@ aside {
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 20px;
-    
+
 }
 
-article{
+article {
     background-color: black;
     text-align: justify;
     border-left: 2px solid black;
     background-size: cover;
-    
+
 }
 
-.articleDivje{
+.articleDivje {
     background-color: #FFE4C4;
     padding: 20px;
     padding-left: 20px;
-    padding-right: 25px;;
+    padding-right: 25px;
+    ;
     margin-left: 10px;
     margin-top: 10px;
-    max-width: 800px; 
-    
+    max-width: 800px;
+
 }
 
 .bemutatkozas {
@@ -168,24 +170,24 @@ article{
     padding-top: 30px;
 }
 
-.bemutatkozasfelsorolas{
+.bemutatkozasfelsorolas {
     padding-top: 20px;
     list-style-type: circle;
     padding-left: 40px;
     padding-bottom: 30px;
-    
+
 }
 
-.spanBemutFels{
+.spanBemutFels {
     font-weight: 800;
-    
+
 }
 
-.spanFigyelNe{
-    text-decoration: underline;   
+.spanFigyelNe {
+    text-decoration: underline;
 }
 
-.hogymiert{
+.hogymiert {
     font-style: italic;
 }
 
@@ -198,43 +200,43 @@ aside {
     background-color: black;
     border-right: 2px solid black;
     padding: 5px;
-    max-width: 330px; 
+    max-width: 330px;
     margin: 0 auto;
 }
 
-.asideDivje{
+.asideDivje {
     background-color: #e8ac56;
     padding-top: 20px;
     padding-left: 8px;
     padding-right: 8px;
     margin: 3px;
-    
+
 }
 
-.kezdolapKocsmaKep{
+.kezdolapKocsmaKep {
     width: 100%;
-    
+
 }
 
-.torlesKezdolap{
+.torlesKezdolap {
     clear: both;
 }
 
-.asideDivje ul{
+.asideDivje ul {
     list-style-type: circle;
     padding-left: 40px;
     padding-bottom: 10px;
 }
 
-.kezdolapKocsmaKepHelye{
+.kezdolapKocsmaKepHelye {
     padding-bottom: 10px;
 }
 
-.asideDivje li{
+.asideDivje li {
     padding: 4px;
 }
 
-.tablazatosertekeles{
+.tablazatosertekeles {
     padding-top: 20px;
     padding-bottom: 36px;
 }
@@ -251,28 +253,33 @@ table {
     margin-top: 25px;
 }
 
-  
-td, th {
-    border-right:1px solid white;
+
+td,
+th {
+    border-right: 1px solid white;
     padding: 6px;
     vertical-align: middle;
     text-align: center;
 
 }
 
-th:first-child, td:first-child, tr:first-child th, tr:first-child td  {
+th:first-child,
+td:first-child,
+tr:first-child th,
+tr:first-child td {
     background-color: black;
 }
 
-th:last-child, td:last-child {
+th:last-child,
+td:last-child {
     border-right: none;
 }
 
-tr:last-child td{
+tr:last-child td {
     border: 2px solid white;
 }
 
-tr:first-child{
+tr:first-child {
     border-bottom: 1px solid white;
 }
 
@@ -280,8 +287,8 @@ tr:first-child{
 
 tr:nth-child(even) {
     background-color: rgb(40, 37, 37);
-    border-top:1px solid rgb(40, 37, 37);
-    border-bottom:1px solid rgb(40, 37, 37);
+    border-top: 1px solid rgb(40, 37, 37);
+    border-bottom: 1px solid rgb(40, 37, 37);
 }
 
 tr:nth-child(odd) {
@@ -292,7 +299,7 @@ tr:nth-child(odd) {
 
 /*footer: */
 
-footer{
+footer {
     background-color: black;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
@@ -306,20 +313,20 @@ footer{
     overflow: hidden;
 }
 
-.footerBD{
+.footerBD {
     text-align: left;
     padding: 30px 20px 20px 40px;
     float: left;
 }
 
-.footerJD{
+.footerJD {
     padding: 10px;
     text-align: right;
     margin: 5px;
     width: 96%;
 }
 
-.footerB{
+.footerB {
     font-weight: 800;
     text-decoration: 2px dashed black;
 }
@@ -328,92 +335,93 @@ footer{
 
 /* HÍREK */
 
-.articleHirek{
+.articleHirek {
     background-color: black;
     text-align: justify;
     border-left: 2px solid black;
     background-size: cover;
 
     margin: 0 auto;
-    
+
 }
 
-.hirekArticleDivje{
+.hirekArticleDivje {
     margin: 10px;
     padding: 5px;
     background-image: url("hatterF2.jpg");
 
 }
 
-.hirekCim{
-    margin:0px;
-    background-color:  #FFE4C4;
+.hirekCim {
+    margin: 0px;
+    background-color: #FFE4C4;
     padding: 20px;
 
 }
-.hirekCim p{
+
+.hirekCim p {
     text-indent: 50px;
 }
 
-.hirekGrid{
+.hirekGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.hir1{
+.hir1 {
     border-radius: 2px;
     margin: 30px 20px 30px 20px;
-    background-color:  #FFE4C4;
+    background-color: #FFE4C4;
     padding: 20px;
     float: left;
     width: 90%;
-    
+
 }
 
-.hir2{
+.hir2 {
     border-radius: 2px;
     margin: 30px 20px 30px 20px;
-    background-color:  #FFE4C4;
+    background-color: #FFE4C4;
     padding: 20px;
     float: right;
     width: 90%;
-    
+
 }
 
-.hir3{
+.hir3 {
     border-radius: 2px;
     margin: 30px 20px 30px 20px;
-    background-color:  #FFE4C4;
+    background-color: #FFE4C4;
     padding: 20px;
     float: left;
     width: 90%;
-    
+
 }
 
-.hir4{
+.hir4 {
     border-radius: 2px;
     margin: 30px 20px 30px 20px;
-    background-color:  #FFE4C4;
+    background-color: #FFE4C4;
     padding: 20px;
     float: right;
     width: 90%;
-    
+
 }
 
-.hir5{
+.hir5 {
     border-radius: 2px;
     margin: 30px 20px 30px 20px;
-    background-color:  #FFE4C4;
+    background-color: #FFE4C4;
     padding: 20px;
     float: left;
     width: 90%;
-    
+
 }
 
-.hir6{
+.hir6 {
     border-radius: 2px;
     margin: 30px 20px 30px 20px;
-    background-color:  #FFE4C4;
+    background-color: #FFE4C4;
     padding: 20px;
     float: rigth;
     width: 90%;
@@ -421,7 +429,7 @@ footer{
 
 
 
-.hir1 h4{
+.hir1 h4 {
     text-align: center;
     padding: 5px;
     border: 1px groove black;
@@ -429,10 +437,11 @@ footer{
     background-color: #8B4513;
     color: white;
 }
-.hir1 p{
+
+.hir1 p {
     padding-top: 15px;
     text-align: justify;
-    
+
 }
 
 .hirekDatum {
@@ -440,7 +449,7 @@ footer{
     text-align: justify;
 }
 
-.hir2 h4{
+.hir2 h4 {
     text-align: center;
     padding: 5px;
     border: 1px groove black;
@@ -449,11 +458,11 @@ footer{
     color: white;
 }
 
-.hir2 p{
-    text-align: justify;   
+.hir2 p {
+    text-align: justify;
 }
 
-.hir3 h4{
+.hir3 h4 {
     text-align: center;
     padding: 5px;
     border: 1px groove black;
@@ -461,11 +470,12 @@ footer{
     background-color: #8B4513;
     color: white;
 }
-.hir3 p{
-    text-align: justify;   
+
+.hir3 p {
+    text-align: justify;
 }
 
-.hir4 h4{
+.hir4 h4 {
     text-align: center;
     padding: 5px;
     border: 1px groove black;
@@ -473,11 +483,12 @@ footer{
     background-color: #8B4513;
     color: white;
 }
-.hir4 p{
-    text-align: justify;   
+
+.hir4 p {
+    text-align: justify;
 }
 
-.hir5 h4{
+.hir5 h4 {
     text-align: center;
     padding: 5px;
     border: 1px groove black;
@@ -485,11 +496,12 @@ footer{
     background-color: #8B4513;
     color: white;
 }
-.hir5 p{
-    text-align: justify;   
+
+.hir5 p {
+    text-align: justify;
 }
 
-.hir6 h4{
+.hir6 h4 {
     text-align: center;
     padding: 5px;
     border: 1px groove black;
@@ -497,8 +509,9 @@ footer{
     background-color: #8B4513;
     color: white;
 }
-.hir6 p{
-    text-align: justify;   
+
+.hir6 p {
+    text-align: justify;
 }
 
 
@@ -518,7 +531,7 @@ body {
     padding: 5px;
     background-color: rgb(162, 157, 157);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- 
+
 }
 
 .kocsma {
@@ -534,7 +547,7 @@ body {
     flex-wrap: nowrap;
     justify-content: flex-start;
     gap: 5px;
-   
+
 }
 
 .kocsma .kepek img {
@@ -554,13 +567,15 @@ body {
     padding: 10px;
     font-weight: bold;
     font-style: italic;
-    color:white;
+    color: white;
 }
+
 .kocsma h2 {
     color: white;
-  
+
 }
-footer{
+
+footer {
     background-color: black;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
@@ -574,26 +589,26 @@ footer{
     overflow: hidden;
 }
 
-.footerBD{
+.footerBD {
     text-align: left;
     padding: 30px 20px 20px 40px;
     float: left;
 }
 
-.footerJD{
+.footerJD {
     padding: 10px;
     text-align: right;
     margin: 5px;
     width: 96%;
 }
 
-.footerB{
+.footerB {
     font-weight: 800;
     text-decoration: 2px dashed black;
 }
 
-nav ul{
-    color:rgba(91, 91, 205,);
+nav ul {
+    color: rgba(91, 91, 205, );
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 0px;
@@ -602,85 +617,99 @@ nav ul{
     font-weight: bold;
     font-style: italic;
 }
-nav li{
+
+nav li {
     border: 2px solid black;
     padding: 5px;
 }
-nav a:hover{
-    background-color: rgba(85, 73, 223,);
+
+nav a:hover {
+    background-color: rgba(85, 73, 223, );
     color: white;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color: rgba(88, 88, 208,);
+    color: rgba(88, 88, 208, );
     padding: 5px;
 }
+
 /* terkep */
-.terkepArticleDiv{
+.terkepArticleDiv {
     margin: 5px;
     padding: 10px;
-    
+
 }
 
-.terkepCim{
-    margin:5px;
-    background-color:  #FFE4C4;
+.terkepCim {
+    margin: 5px;
+    background-color: #FFE4C4;
     padding: 20px;
 }
-h2{
+
+h2 {
     margin-bottom: 5px;
 }
-p{
+
+p {
     font-style: italic;
 }
+
 .terkepHelyek a {
-    color: black; 
+    color: black;
     text-decoration: none;
     font-weight: bold;
 
 }
-.magterkep{
-    margin:5px;
-    background-color:  #FFE4C4;
+
+.magterkep {
+    margin: 5px;
+    background-color: #FFE4C4;
     padding: 20px;
-    
-}
-.wwclubterkep{
-    margin:5px;
-    background-color:  #FFE4C4;
-    padding: 20px;
-}
-.fahazterkep{
-    margin:5px;
-    background-color:  #FFE4C4;
-    padding: 20px;
-}
-.grundterkep{
-    margin:5px;
-    background-color:  #FFE4C4;
-    padding: 20px;
-}
-a:hover{
-    background-color: #8B4513;
-    
+
 }
 
-a:hover{
+.wwclubterkep {
+    margin: 5px;
+    background-color: #FFE4C4;
+    padding: 20px;
+}
+
+.fahazterkep {
+    margin: 5px;
+    background-color: #FFE4C4;
+    padding: 20px;
+}
+
+.grundterkep {
+    margin: 5px;
+    background-color: #FFE4C4;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: #8B4513;
+
+}
+
+a:hover {
     color: white;
 }
+
 .terkepHelyek img {
     width: 19.5%;
     height: auto;
     border-radius: 8px;
-    margin-top: 10px; 
-    display: block; 
-    margin: 0 auto; 
-    margin-bottom: 10px; 
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
+
 .terkepHelyek {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 10px; 
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -696,7 +725,7 @@ a:hover{
 }
 
 .terkepHelyek a {
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 .terkepHelyek a img {
@@ -713,74 +742,85 @@ a:hover{
 
 
 @media only screen and (max-width: 450px) {
-    body, main {
-        font-size:12px;
-        
+
+    body,
+    main {
+        font-size: 12px;
+
         background-size: cover;
-        width:100%;
+        width: 100%;
     }
-    main {  
-        grid-template-columns:1fr; 
-        grid-template-areas: 
+
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas:
             "h"
             "n"
             "a"
             "j"
-            "f"; 
+            "f";
     }
+
     nav ul {
-    
-        grid-template-columns: 1fr; 
-        gap: 5px; 
+
+        grid-template-columns: 1fr;
+        gap: 5px;
         list-style-type: none;
         text-align: center;
     }
-    .hirekGrid{
+
+    .hirekGrid {
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    aside{
+    aside {
         max-width: 380px;
     }
-    header{
+
+    header {
         height: 30vh;
     }
 
-  }
-/* sajat velemenyek */
-.velemenyekDiv{
-    margin:5px;
-    background-color:  #FFE4C4;
+}
+
+/* sajat elmenyek*/
+.Magdiv {
+    margin: 5px;
+    background-color: #FFE4C4;
     padding: 20px;
     text-align: center;
 }
-.Dorkadivje{
-    margin:5px;
-    background-color:  white;
+
+.Dorkadivje {
+    margin: 5px;
+    background-color: white;
     padding: 20px;
     border: 2px solid black;
     width: 800px;
     height: 100px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     margin-top: 5px;
     font-size: 12px;
-    text-align: right;
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center;
 
 }
-.Dorkafejdiv{
+
+.Dorkafejdiv {
     margin: 5px;
-    background-color: pink;
+    background-image:url(dorka_feje.jpg);
     padding: 20px;
     border: 2px solid black;
-    width: 80px; 
-    height: 60px; 
+    width: 80px;
+    height: 60px;
     box-sizing: border-box;
-    display: flex;
 }
-.Esztidivje{
-    margin:5px;
-    background-color:  white;
+
+.Esztidivje {
+    margin: 5px;
+    background-color: white;
     padding: 20px;
     border: 2px solid black;
     display: flex;
@@ -790,14 +830,51 @@ a:hover{
     margin-left: auto;
     margin-top: 10px;
 }
-.Esztifejdiv{
+
+.Esztifejdiv {
     margin: 5px;
     background-color: pink;
     padding: 20px;
     border: 2px solid black;
-    width: 80px; 
-    height: 60px; 
+    width: 80px;
+    height: 60px;
     box-sizing: border-box;
-   
+
+}
+.WWdiv {
+    margin: 5px;
+    background-color: #FFE4C4;
+    padding: 20px;
+    text-align: center;
+}
+.Dorkadivje {
+    margin: 5px;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    width: 800px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center;
+
 }
 
+.Dorkafejdiv {
+    margin: 5px;
+    background-image:url(dorka_feje.jpg);
+    padding: 20px;
+    border: 2px solid black;
+    width: 80px;
+    height: 60px;
+    box-sizing: border-box;
+}
+.Fahazdiv{
+    margin: 5px;
+    background-color: #FFE4C4;
+    padding: 20px;
+    text-align: center;
+}
