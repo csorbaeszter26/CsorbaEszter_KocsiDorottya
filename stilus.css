@@ -794,6 +794,7 @@ a:hover {
     background-color: #FFE4C4;
     padding: 20px;
     text-align: center;
+    margin-top: 15px;
 }
 
 .Dorkadivje {
@@ -851,6 +852,7 @@ a:hover {
     background-color: #FFE4C4;
     padding: 20px;
     text-align: center;
+    margin-top: 15px;
 }
 
 .Fahazdiv{
@@ -858,10 +860,12 @@ a:hover {
     background-color: #FFE4C4;
     padding: 20px;
     text-align: center;
+    margin-top: 15px;
 }
 .Grunddiv{
     margin: 5px;
     background-color: #FFE4C4;
     padding: 20px;
     text-align: center; 
+    margin-top: 15px;
 }
