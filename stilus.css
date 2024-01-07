@@ -748,7 +748,57 @@ a:hover{
     }
 
   }
+/* sajat velemenyek */
+.velemenyekDiv{
+    margin:5px;
+    background-color:  #FFE4C4;
+    padding: 20px;
+    text-align: center;
+}
+.Dorkadivje{
+    margin:5px;
+    background-color:  white;
+    padding: 20px;
+    border: 2px solid black;
+    width: 800px;
+    height: 100px;
+    margin-bottom: 10px; 
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: right;
 
 }
-
+.Dorkafejdiv{
+    margin: 5px;
+    background-color: pink;
+    padding: 20px;
+    border: 2px solid black;
+    width: 80px; 
+    height: 60px; 
+    box-sizing: border-box;
+    display: flex;
+    
+}
+.Esztidivje{
+    margin:5px;
+    background-color:  white;
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-end;
+    width: 700px;
+    height: 100px;
+    margin-left: auto;
+    margin-top: 10px;
+}
+.Esztifejdiv{
+    margin: 5px;
+    background-color: pink;
+    padding: 20px;
+    border: 2px solid black;
+    width: 80px; 
+    height: 60px; 
+    box-sizing: border-box;
+   
+}
 
