@@ -64,7 +64,7 @@ nav ul {
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
-
+    gap: 0px;
 }
 
 nav ul li {
@@ -79,6 +79,8 @@ nav ul a {
     text-decoration: none;
     color: black;
     transition: color 0.3s;
+    padding: 5px;
+    font-weight: bold;
 }
 
 nav li:hover {
@@ -193,6 +195,7 @@ article {
 
 .bemutatkozasfelsorolas li {
     padding: 4px;
+    font-style: italic;
 }
 
 /* aside: */
@@ -234,6 +237,7 @@ aside {
 
 .asideDivje li {
     padding: 4px;
+    font-style: italic;
 }
 
 .tablazatosertekeles {
@@ -607,32 +611,6 @@ footer {
     text-decoration: 2px dashed black;
 }
 
-nav ul {
-    color: rgba(91, 91, 205, );
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px;
-    list-style-type: none;
-    text-align: left;
-    font-weight: bold;
-    font-style: italic;
-}
-
-nav li {
-    border: 2px solid black;
-    padding: 5px;
-}
-
-nav a:hover {
-    background-color: rgba(85, 73, 223, );
-    color: white;
-}
-
-nav a {
-    text-decoration: none;
-    color: rgba(88, 88, 208, );
-    padding: 5px;
-}
 
 /* terkep */
 .terkepArticleDiv {
@@ -659,42 +637,63 @@ p {
     color: black;
     text-decoration: none;
     font-weight: bold;
-
+    transition: color 0.3;
 }
 
 .magterkep {
     margin: 5px;
     background-color: #FFE4C4;
     padding: 20px;
-
+    transition: background-color 0.3s;
 }
 
 .wwclubterkep {
     margin: 5px;
     background-color: #FFE4C4;
     padding: 20px;
+    transition: background-color 0.3s;
 }
 
 .fahazterkep {
     margin: 5px;
     background-color: #FFE4C4;
     padding: 20px;
+    transition: background-color 0.3s;
 }
 
 .grundterkep {
     margin: 5px;
     background-color: #FFE4C4;
     padding: 20px;
+    transition: background-color 0.3s;
 }
 
-a:hover {
+.magterkep:hover {
     background-color: #8B4513;
-
+}
+.wwclubterkep:hover {
+    background-color: #8B4513;
+}
+.fahazterkep:hover {
+    background-color: #8B4513;
+}
+.grundterkep:hover {
+    background-color: #8B4513;
 }
 
-a:hover {
+.magterkep:hover a {
     color: white;
 }
+.wwclubterkep:hover a {
+    color: white;
+}
+.fahazterkep:hover a {
+    color: white;
+}
+.grundterkep:hover a {
+    color: white;
+}
+
 
 .terkepHelyek img {
     width: 19.5%;
