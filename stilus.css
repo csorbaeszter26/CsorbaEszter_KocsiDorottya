@@ -1,14 +1,12 @@
 /* eszti */
 /* KEZDŐLAP*/
 
-
 * {
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
 
 }
-
 
 body {
     background-size: cover;
@@ -40,20 +38,6 @@ header {
     padding-top: 10px;
 }
 
-/*
-.kezdolapCimKep{
-    float: right;
-    width: 23%;
-    margin-right: 30px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    background-size: cover;
-}
-
-.torlesKezdolap{
-    clear: both;
-}
-*/
 /*menü: */
 nav ul {
     list-style-type: none;
@@ -100,7 +84,6 @@ nav li.szines {
 nav a.szines {
     color: white;
 }
-
 
 /*grid-areak: */
 main {
@@ -170,7 +153,6 @@ article {
     padding-top: 30px;
     
 }
-
 .bemutatkozas p{
     font-style: normal;
 }
@@ -185,13 +167,11 @@ article {
 
 .spanBemutFels {
     font-weight: 800;
-
 }
 
 .spanFigyelNe {
     text-decoration: underline;
 }
-
 .hogymiert {
     font-style: italic;
 }
@@ -222,9 +202,11 @@ aside {
     width: 100%;
 
 }
-
 .torlesKezdolap {
     clear: both;
+}
+.kezdolapKocsmaKepHelye {
+    padding-bottom: 10px;
 }
 
 .asideDivje ul {
@@ -232,11 +214,6 @@ aside {
     padding-left: 40px;
     padding-bottom: 10px;
 }
-
-.kezdolapKocsmaKepHelye {
-    padding-bottom: 10px;
-}
-
 .asideDivje li {
     padding: 4px;
     font-style: italic;
@@ -246,8 +223,6 @@ aside {
     padding-top: 20px;
     padding-bottom: 36px;
 }
-
-
 
 /* TÁBLÁZAT: */
 table {
@@ -259,9 +234,7 @@ table {
     margin-top: 25px;
 }
 
-
-td,
-th {
+td, th {
     border-right: 1px solid white;
     padding: 6px;
     vertical-align: middle;
@@ -269,42 +242,29 @@ th {
 
 }
 
-th:first-child,
-td:first-child,
-tr:first-child th,
-tr:first-child td {
+th:first-child, td:first-child, tr:first-child th, tr:first-child td {
     background-color: black;
 }
-
-th:last-child,
-td:last-child {
+th:last-child, td:last-child {
     border-right: none;
 }
-
 tr:last-child td {
     border: 2px solid white;
 }
-
 tr:first-child {
     border-bottom: 1px solid white;
 }
-
-
 
 tr:nth-child(even) {
     background-color: rgb(40, 37, 37);
     border-top: 1px solid rgb(40, 37, 37);
     border-bottom: 1px solid rgb(40, 37, 37);
 }
-
 tr:nth-child(odd) {
     background-color: rgb(72, 68, 68);
 }
 
-
-
 /*footer: */
-
 footer {
     background-color: black;
     border-bottom: 2px solid black;
@@ -324,7 +284,6 @@ footer {
     padding: 30px 20px 20px 40px;
     float: left;
 }
-
 .footerJD {
     padding: 10px;
     text-align: right;
@@ -336,8 +295,6 @@ footer {
     font-weight: 800;
     text-decoration: 2px dashed black;
 }
-
-
 
 /* HÍREK */
 
@@ -364,7 +321,6 @@ footer {
     padding: 20px;
 
 }
-
 .hirekCim p {
     text-indent: 50px;
 }
