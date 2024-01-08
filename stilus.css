@@ -751,6 +751,56 @@ p {
 
 
 
+@media only screen and (max-width: 450px) {
+    
+    body,
+    main {
+        font-size: 12px;
+
+        background-size: cover;
+        width: 100%;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "h"
+            "n"
+            "a"
+            "j"
+            "f";
+    }
+
+    nav ul {
+
+        grid-template-columns: 1fr;
+        gap: 5px;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    .hirekGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    aside {
+        max-width: 380px;
+    }
+
+    header {
+        height: 30vh;
+    }
+    .articleDivje{
+        margin-right: 10px;
+    }
+    .terkepHelyek{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  
+}
+
 /* sajat elmenyek*/
 .Magdiv {
     margin: 5px;
