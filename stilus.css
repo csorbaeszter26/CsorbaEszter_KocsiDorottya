@@ -749,9 +749,9 @@ p {
 
 
 
-/* MOBIL NÉZET */
 
 
+<<<<<<< HEAD
 @media only screen and (max-width: 450px) {
     
     body,
@@ -802,6 +802,8 @@ p {
   
 }
 
+=======
+>>>>>>> d123132fc04b2bae8e07f7e832024f6526bd937a
 /* sajat elmenyek*/
 .Magdiv {
     margin: 5px;
@@ -818,8 +820,8 @@ p {
     background-color: white;
     padding: 20px;
     border: 2px solid black;
-    width: 700px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     margin-bottom: 10px;
     margin-top: 5px;
     font-size: 12px;
@@ -846,8 +848,8 @@ p {
     border: 2px solid black;
     display: flex;
     justify-content: flex-end;
-    width: 700px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-top: 10px;
     font-size: 12px;
@@ -894,17 +896,12 @@ p {
 
 
 
-
-
-
-
 /* MOBIL NÉZET */
 
 
 @media only screen and (max-width: 450px) {
 
-    body,
-    main {
+    body, main {
         font-size: 12px;
 
         background-size: cover;
@@ -944,10 +941,27 @@ p {
     .articleDivje{
         margin-right: 10px;
     }
-    
+
+    .terkepHelyek{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .sajatEArticleDivje{
+       
+    }
+
     footer {
         text-align: left;
         float: left;
+    }
+
+    .Dorkadivje{
+        width: 100%;
+        height: 100%;
+    }
+    .Esztidivje{
+        width: 100%;
+        height: 100%;
     }
 
 }
@@ -991,11 +1005,24 @@ p {
     aside {
         max-width: 420px;
     }
-    
+
     .articleDivje{
         margin-right: 10px;
     }
 
+    .terkepHelyek{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .Dorkadivje{
+        width: 100%;
+        height: 100%;
+    }
+    .Esztidivje{
+        width: 100%;
+        height: 100%;
+    }
 }
 
 
