@@ -916,13 +916,16 @@ p {
     }
 
     nav ul {
-
+        
         grid-template-columns: 1fr;
-        gap: 5px;
+        gap: 0px;
         list-style-type: none;
         text-align: center;
     }
-
+    nav li{
+        border-top: 3px solid black;
+    }
+    
     .hirekGrid {
         display: grid;
         grid-template-columns: 1fr;
@@ -942,9 +945,6 @@ p {
     .terkepHelyek{
         display: grid;
         grid-template-columns: 1fr;
-    }
-    .sajatEArticleDivje{
-       
     }
 
     footer {
@@ -987,12 +987,15 @@ p {
     
   }
     nav ul {
-
         grid-template-columns: 1fr;
-        gap: 5px;
+        gap: 0px;
         list-style-type: none;
         text-align: center;
+        
 }
+    nav li{
+        border-top: 3px solid black;
+    }
 
     .hirekGrid {
         display: grid;
