@@ -784,7 +784,13 @@ a:hover {
     .articleDivje{
         margin-right: 10px;
     }
-    
+    .terkepHelyek{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .sajatEArticleDivje{
+       
+    }
 
 }
 
