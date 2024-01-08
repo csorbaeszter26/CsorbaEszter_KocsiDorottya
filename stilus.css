@@ -747,6 +747,10 @@ p {
 
 
 
+
+
+
+
 /* sajat elmenyek*/
 .Magdiv {
     margin: 5px;
@@ -839,17 +843,12 @@ p {
 
 
 
-
-
-
-
 /* MOBIL NÉZET */
 
 
 @media only screen and (max-width: 450px) {
 
-    body,
-    main {
+    body, main {
         font-size: 12px;
 
         background-size: cover;
@@ -889,10 +888,27 @@ p {
     .articleDivje{
         margin-right: 10px;
     }
-    
+
+    .terkepHelyek{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .sajatEArticleDivje{
+       
+    }
+
     footer {
         text-align: left;
         float: left;
+    }
+
+    .Dorkadivje{
+        width: 100%;
+        height: 100%;
+    }
+    .Esztidivje{
+        width: 100%;
+        height: 100%;
     }
 
 }
@@ -941,6 +957,19 @@ p {
         margin-right: 10px;
     }
 
+    .terkepHelyek{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .Dorkadivje{
+        width: 100%;
+        height: 100%;
+    }
+    .Esztidivje{
+        width: 100%;
+        height: 100%;
+    }
 }
 
 
