@@ -64,7 +64,7 @@ nav ul {
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
-
+    gap: 0px;
 }
 
 nav ul li {
@@ -79,6 +79,8 @@ nav ul a {
     text-decoration: none;
     color: black;
     transition: color 0.3s;
+    padding: 5px;
+    font-weight: bold;
 }
 
 nav li:hover {
@@ -155,19 +157,22 @@ article {
 .articleDivje {
     background-color: #FFE4C4;
     padding: 20px;
-    padding-left: 20px;
     padding-right: 25px;
-    ;
     margin-left: 10px;
     margin-top: 10px;
     max-width: 800px;
-
+    
 }
 
 .bemutatkozas {
     padding-left: 10px;
     padding-bottom: 20px;
     padding-top: 30px;
+    
+}
+
+.bemutatkozas p{
+    font-style: normal;
 }
 
 .bemutatkozasfelsorolas {
@@ -234,6 +239,7 @@ aside {
 
 .asideDivje li {
     padding: 4px;
+    font-style: italic;
 }
 
 .tablazatosertekeles {
@@ -441,6 +447,7 @@ footer {
 .hir1 p {
     padding-top: 15px;
     text-align: justify;
+    font-style: normal;
 
 }
 
@@ -459,7 +466,9 @@ footer {
 }
 
 .hir2 p {
+    padding-top: 15px;
     text-align: justify;
+    font-style: normal;
 }
 
 .hir3 h4 {
@@ -472,7 +481,9 @@ footer {
 }
 
 .hir3 p {
+    padding-top: 15px;
     text-align: justify;
+    font-style: normal;
 }
 
 .hir4 h4 {
@@ -485,7 +496,9 @@ footer {
 }
 
 .hir4 p {
+    padding-top: 15px;
     text-align: justify;
+    font-style: normal;
 }
 
 .hir5 h4 {
@@ -498,7 +511,9 @@ footer {
 }
 
 .hir5 p {
+    padding-top: 15px;
     text-align: justify;
+    font-style: normal;
 }
 
 .hir6 h4 {
@@ -511,10 +526,10 @@ footer {
 }
 
 .hir6 p {
+    padding-top: 15px;
     text-align: justify;
+    font-style: normal;
 }
-
-
 
 
 
@@ -607,32 +622,6 @@ footer {
     text-decoration: 2px dashed black;
 }
 
-nav ul {
-    color: rgba(91, 91, 205, );
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px;
-    list-style-type: none;
-    text-align: left;
-    font-weight: bold;
-    font-style: italic;
-}
-
-nav li {
-    border: 2px solid black;
-    padding: 5px;
-}
-
-nav a:hover {
-    background-color: rgba(85, 73, 223, );
-    color: white;
-}
-
-nav a {
-    text-decoration: none;
-    color: rgba(88, 88, 208, );
-    padding: 5px;
-}
 
 /* terkep */
 .terkepArticleDiv {
@@ -659,42 +648,63 @@ p {
     color: black;
     text-decoration: none;
     font-weight: bold;
-
+    transition: color 0.3;
 }
 
 .magterkep {
     margin: 5px;
     background-color: #FFE4C4;
     padding: 20px;
-
+    transition: background-color 0.3s;
 }
 
 .wwclubterkep {
     margin: 5px;
     background-color: #FFE4C4;
     padding: 20px;
+    transition: background-color 0.3s;
 }
 
 .fahazterkep {
     margin: 5px;
     background-color: #FFE4C4;
     padding: 20px;
+    transition: background-color 0.3s;
 }
 
 .grundterkep {
     margin: 5px;
     background-color: #FFE4C4;
     padding: 20px;
+    transition: background-color 0.3s;
 }
 
-a:hover {
+.magterkep:hover {
     background-color: #8B4513;
-
+}
+.wwclubterkep:hover {
+    background-color: #8B4513;
+}
+.fahazterkep:hover {
+    background-color: #8B4513;
+}
+.grundterkep:hover {
+    background-color: #8B4513;
 }
 
-a:hover {
+.magterkep:hover a {
     color: white;
 }
+.wwclubterkep:hover a {
+    color: white;
+}
+.fahazterkep:hover a {
+    color: white;
+}
+.grundterkep:hover a {
+    color: white;
+}
+
 
 .terkepHelyek img {
     width: 19.5%;
@@ -712,6 +722,7 @@ a:hover {
     gap: 10px;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .terkepHelyek div {
@@ -736,6 +747,7 @@ a:hover {
 
 
 
+<<<<<<< HEAD
 
 
 /* MOBIL NÉZET */
@@ -794,6 +806,8 @@ a:hover {
 
 }
 
+=======
+>>>>>>> 007142f852a8fa27bbe30323e541cddab6a85f0e
 /* sajat elmenyek*/
 .Magdiv {
     margin: 5px;
@@ -883,3 +897,111 @@ a:hover {
     margin-left:15px;
     margin-right:15px;
 }
+
+
+
+
+
+
+
+/* MOBIL NÉZET */
+
+
+@media only screen and (max-width: 450px) {
+
+    body,
+    main {
+        font-size: 12px;
+
+        background-size: cover;
+        width: 100%;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "h"
+            "n"
+            "a"
+            "j"
+            "f";
+    }
+
+    nav ul {
+
+        grid-template-columns: 1fr;
+        gap: 5px;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    .hirekGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    aside {
+        max-width: 380px;
+    }
+
+    header {
+        height: 30vh;
+    }
+    .articleDivje{
+        margin-right: 10px;
+    }
+    
+    footer {
+        text-align: left;
+        float: left;
+    }
+
+}
+
+
+
+
+/*TABLET nézet*/
+@media only screen and (max-width: 700px) {
+    body, main {
+        
+        font-size: 12px;
+
+        background-size: cover;
+        width: 100%;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "h h"
+            "n n"
+            "a a"
+            "j j"
+            "f f";
+    
+  }
+    nav ul {
+
+        grid-template-columns: 1fr;
+        gap: 5px;
+        list-style-type: none;
+        text-align: center;
+}
+
+    .hirekGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+}
+
+    aside {
+        max-width: 420px;
+    }
+    
+    .articleDivje{
+        margin-right: 10px;
+    }
+
+}
+
+
