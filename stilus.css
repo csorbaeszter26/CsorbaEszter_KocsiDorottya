@@ -383,7 +383,6 @@ footer {
     width: 90%;
 
 }
-
 .hir2 {
     border-radius: 2px;
     margin: 30px 20px 30px 20px;
@@ -393,7 +392,6 @@ footer {
     width: 90%;
 
 }
-
 .hir3 {
     border-radius: 2px;
     margin: 30px 20px 30px 20px;
@@ -403,7 +401,6 @@ footer {
     width: 90%;
 
 }
-
 .hir4 {
     border-radius: 2px;
     margin: 30px 20px 30px 20px;
@@ -413,7 +410,6 @@ footer {
     width: 90%;
 
 }
-
 .hir5 {
     border-radius: 2px;
     margin: 30px 20px 30px 20px;
@@ -423,17 +419,14 @@ footer {
     width: 90%;
 
 }
-
 .hir6 {
     border-radius: 2px;
     margin: 30px 20px 30px 20px;
     background-color: #FFE4C4;
     padding: 20px;
-    float: rigth;
+    float: right;
     width: 90%;
 }
-
-
 
 .hir1 h4 {
     text-align: center;
@@ -443,7 +436,6 @@ footer {
     background-color: #8B4513;
     color: white;
 }
-
 .hir1 p {
     padding-top: 15px;
     text-align: justify;
@@ -464,7 +456,6 @@ footer {
     background-color: #8B4513;
     color: white;
 }
-
 .hir2 p {
     padding-top: 15px;
     text-align: justify;
@@ -479,7 +470,6 @@ footer {
     background-color: #8B4513;
     color: white;
 }
-
 .hir3 p {
     padding-top: 15px;
     text-align: justify;
@@ -494,7 +484,6 @@ footer {
     background-color: #8B4513;
     color: white;
 }
-
 .hir4 p {
     padding-top: 15px;
     text-align: justify;
@@ -509,7 +498,6 @@ footer {
     background-color: #8B4513;
     color: white;
 }
-
 .hir5 p {
     padding-top: 15px;
     text-align: justify;
@@ -524,7 +512,6 @@ footer {
     background-color: #8B4513;
     color: white;
 }
-
 .hir6 p {
     padding-top: 15px;
     text-align: justify;
@@ -648,7 +635,6 @@ p {
     color: black;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3;
 }
 
 .magterkep {
