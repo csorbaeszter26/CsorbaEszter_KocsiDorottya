@@ -7,6 +7,12 @@
     <meta name="author" content="Csorba Eszter, Kocsi Dorottya" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Csorba Eszter, Kocsi Dorottya</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="stilus.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -48,9 +54,35 @@
             </nav>
 
             <article>
-                <fieldset>
+                <div>
+                    <h5>Kedves Olvasóink!</h5>
+                    <p>A legjobb és legfrissebb hírek és információk szolgáltatásának érdekében szeretnénk kérni Titeket arra, hogy saját élményeitek és gondolataitok megosztásával segítsétek oldalunk relevanciáját!</p>
+                    <p>Értékeljétek mind a különböző kocsmákat, mind az oldalunk szolgáltatásait!</p>
+                </div>
 
-                    
+                <fieldset>
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="text" class="form-control" id="nev" placeholder="Írd be a neved..." name="nev">
+                        <label for="nev">Teljes neved</label>
+                      </div>
+                      
+                      <div class="form-floating mt-3 mb-3">
+                        <input type="text" class="form-control" id="email" placeholder="Írd be az e-mail címed..." name="emaill">
+                        <label for="email">Email-cím</label>
+                      </div>
+                    <label for="kocsma" class="form-label">Válaszd ki a kocsmát:</label>
+                    <input class="form-control" list="kocsmak" name="kocsma" id="kocsma">
+                    <datalist id="kocsmak">
+                        <option value="Mag">
+                        <option value="WW Club">
+                        <option value="Faház Söröző Borozó">
+                        <option value="Grund">
+                    </datalist>
+                    <div class="hirlevel">
+                        <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+                        <label class="form-check-label">Feliratkozom a hírlevélre</label>
+                      </div>
+
                 </fieldset>
 
             </article>
