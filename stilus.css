@@ -475,6 +475,93 @@ footer {
 }
 
 
+.ertekeleskoszontesdiv{
+    text-align: justify;
+    font-weight: 80;
+    margin-bottom: 30px;
+}
+.ertekelesspan{
+    font-style: bold;
+    font-weight: 800;
+}
+.teljesnevdiv {
+    color: black;
+}
+.nevemaildiv > label{
+    color: grey;
+}
+
+.kocsmaertekelesdivtisztasag{
+    display: flex;
+    flex-direction: row;
+}
+.kocsmaertekelesdivtisztasag > label{
+    flex: 0 0 20px;
+    text-align: center;
+    display: flex;
+    margin-right: 10px;
+    /*display: flex;
+    align-items: center;
+    margin-bottom: 5px;*/
+}
+.kocsmaertekelesdivtisztasag input[type="radio"] {
+    margin-right: 5px;
+    text-align: right;
+    
+}
+.kocsmaertekelesdivvibe{
+    display: flex;
+    flex-direction: row;
+}
+.kocsmaertekelesdivvibe > label{
+    flex: 0 0 20px;
+    text-align: right;
+    display: flex;
+    margin-right: 10px;
+}
+.kocsmaertekelesdivvibe input[type="radio"]{
+    margin-right: 5px;
+    text-align: right;
+}
+.kocsmaertekelesdivferohely{
+    display: flex;
+    flex-direction: row;
+}
+.kocsmaertekelesdivferohely > label{
+    flex: 0 0 20px;
+    text-align: center;
+    display: flex;
+    margin-right: 10px;
+}
+.kocsmaertekelesdivferohely input[type="radio"]{
+    margin-right: 5px;
+}
+.kocsmaertekelesdivarak{
+    display: flex;
+    flex-direction: row;
+}
+.kocsmaertekelesdivarak > label{
+    flex: 0 0 20px;
+    text-align: center;
+    display: flex;
+    margin-right: 10px;
+}
+.kocsmaertekelesdivarak input[type="radio"]{
+    margin-right: 5px;
+}
+
+
+.kuldesdiv{
+    text-align: right;
+}
+
+
+
+form{
+    margin: auto;
+}
+
+
 
 /* /eszti */
 
@@ -583,7 +670,7 @@ h2 {
     margin-bottom: 5px;
 }
 
-p {
+.terkepArticleDiv > p {
     font-style: italic;
 }
 

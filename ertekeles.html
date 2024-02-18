@@ -54,37 +54,126 @@
             </nav>
 
             <article>
-                <div>
-                    <h5>Kedves Olvasóink!</h5>
-                    <p>A legjobb és legfrissebb hírek és információk szolgáltatásának érdekében szeretnénk kérni Titeket arra, hogy saját élményeitek és gondolataitok megosztásával segítsétek oldalunk relevanciáját!</p>
-                    <p>Értékeljétek mind a különböző kocsmákat, mind az oldalunk szolgáltatásait!</p>
+                <div class="articleDivje"> 
+                    <div class="ertekeleskoszontesdiv">
+                        <h5>Kedves Olvasóink!</h5>
+                        <p>A legjobb és legfrissebb hírek és információk szolgáltatásának érdekében szeretnénk kérni Titeket arra, hogy <span class="ertekelesspan">saját élményeitek és gondolataitok megosztásával</span> segítsétek oldalunk relevanciáját!</p>
+                        <p>Értékeljétek mind a különböző kocsmákat, mind az oldalunk szolgáltatásait!</p>
+                    </div>
+                    <form>
+                        <fieldset>
+                            <div class="nevemaildiv">
+                                <div class="form-floating mb-3 mt-3">
+                                    <input type="text" class="form-control" id="nev" placeholder="Írd be a neved..." name="nev">
+                                    <label for="nev">Teljes neved</label>
+                                  </div>
+                                  
+                                  <div class="form-floating mt-3 mb-3">
+                                    <input type="text" class="form-control" id="email" placeholder="Írd be az e-mail címed..." name="email">
+                                    <label for="email">E-mail cím</label>
+                                  </div>
+                            </div>
+                            <div class="kocsmakivalasztasdiv">
+
+
+
+                            </div>
+                            
+
+
+
+
+
+
+                            <!-- <div class="teljesnevdiv" class="container">
+                                <label for="nev">Teljes neved</label>
+                                <input type="text" class="form-teljesnev" class="text-dark" id="nev" placeholder="Írd be a neved..." name="nev" required>
+                            </div>
+                              
+                            <div class="emaildiv">
+                                <label for="email">Email-cím</label>
+                                <input type="text" class="form-email" id="email" placeholder="Írd be az e-mail címed..." name="emaill" required> 
+                            </div>-->
+
+                            <div class="kocsmakivalasztasdiv">
+                                <label for="kocsma" class="form-kocsmak">Válaszd ki a kocsmát:</label>
+                                <select class="form-select">
+                                    <option>Válassz kocsmát:</option>
+                                    <option>Mag</option>
+                                    <option>WW Club</option>
+                                    <option>Faház Söröző Borozó</option>
+                                    <option>Grund</option>
+                                  </select>
+
+                                <!--<label for="kocsma" class="form-kocsmak">Válaszd ki a kocsmát:</label>
+                                <input class="form-kocsmak" list="kocsmak" name="kocsma" id="kocsma" required>
+                                <datalist id="kocsmak">
+                                    <option value="Mag">
+                                    <option value="WW Club">
+                                    <option value="Faház Söröző Borozó">
+                                    <option value="Grund">
+                                </datalist>-->
+                            </div>
+                            <br>
+                            <p>Értékeld a megadott szempontok alapján!</p>
+                            <div class="kocsmaertekelesdiv">
+                                <div class="kocsmaertekelesdivtisztasag">
+                                    <label for="tisztasag" class="form-kocsmaertek">Tisztaság: </label>
+                                    <input type="radio" id="tisztasag" name="tisztasag" value="1">
+                                    <label for="tisztasag">1</label>
+                                    <input type="radio" id="tisztasag" name="tisztasag" value="2">
+                                    <label for="tisztasag">2</label>
+                                    <input type="radio" id="tisztasag" name="tisztasag" value="3">
+                                    <label for="tisztasag">3</label><br>
+                                </div>
+                                <div class="kocsmaertekelesdivvibe">
+                                    <label for="vibe" class="form-kocsmaertek">Vibe: </label>
+                                    <input type="radio" id="vibe" name="vibe" value="1">
+                                    <label for="vibe">1</label>
+                                    <input type="radio" id="vibe" name="vibe" value="2">
+                                    <label for="vibe">2</label>
+                                    <input type="radio" id="vibe" name="vibe" value="3">
+                                    <label for="vibe">3</label><br>
+                                </div>                        
+                                <div class="kocsmaertekelesdivferohely">
+                                    <label for="ferohely" class="form-kocsmaertek">Férőhely: </label>
+                                    <input type="radio" id="ferohely" name="ferohely" value="1">
+                                    <label for="ferohely">1</label>
+                                    <input type="radio" id="ferohely" name="ferohely" value="2">
+                                    <label for="ferohely">2</label>
+                                    <input type="radio" id="ferohely" name="ferohely" value="3">
+                                    <label for="ferohely">3</label><br>
+                                </div>
+                                <div class="kocsmaertekelesdivarak">
+                                    <label for="arak" class="form-kocsmaertek">Árak: </label>
+                                    <input type="radio" id="arak" name="arak" value="1">
+                                    <label for="arak">1</label>
+                                    <input type="radio" id="arak" name="arak" value="2">
+                                    <label for="arak">2</label>
+                                    <input type="radio" id="arak" name="arak" value="3">
+                                    <label for="arak">3</label><br>
+                                </div>
+                            </div>
+                            <br>
+                        </fieldset>
+        
+                        <fieldset>
+                            <div class="velemeny">
+                                <label for="velemeny">Oszd meg velünk az oldalunkkal kacsolatos véleményedet!</label>
+                                <textarea class="form-control" rows="5" id="velemeny" name="text"></textarea>   
+                            </div>
+                             
+                            <div class="hirlevel">
+                                <input type="checkbox" id="hirlevel" name="hirlevel" value="hirlevel">
+                                <label class="form-check-label">Feliratkozom a hírlevélre</label>
+                            </div>
+                            <div class="kuldesdiv">
+                                <input type="submit" value="Küldés">
+                            </div>
+                        </fieldset>
+                    </form>
                 </div>
-
-                <fieldset>
-                    <div class="form-floating mb-3 mt-3">
-                        <input type="text" class="form-control" id="nev" placeholder="Írd be a neved..." name="nev">
-                        <label for="nev">Teljes neved</label>
-                      </div>
-                      
-                      <div class="form-floating mt-3 mb-3">
-                        <input type="text" class="form-control" id="email" placeholder="Írd be az e-mail címed..." name="emaill">
-                        <label for="email">Email-cím</label>
-                      </div>
-                    <label for="kocsma" class="form-label">Válaszd ki a kocsmát:</label>
-                    <input class="form-control" list="kocsmak" name="kocsma" id="kocsma">
-                    <datalist id="kocsmak">
-                        <option value="Mag">
-                        <option value="WW Club">
-                        <option value="Faház Söröző Borozó">
-                        <option value="Grund">
-                    </datalist>
-                    <div class="hirlevel">
-                        <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
-                        <label class="form-check-label">Feliratkozom a hírlevélre</label>
-                      </div>
-
-                </fieldset>
-
+                
             </article>
             
             <aside>
